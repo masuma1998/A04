@@ -1,0 +1,70 @@
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+     font-family: "Nunito", sans-serif;
+  }
+  
+  .navigation-menu {
+    background-color:darkblue;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navigation-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+  }
+  
+  img{
+    width: 200px;
+  }
+  
+  .service-container { 
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 100vh;
+    margin: 20px auto;
+    margin-bottom: 0;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .navigation-menu a:hover {
+    background-color: skyblue;
+  }
+  
+  .service-container h2 {
+    text-align: left;
+    margin-top: 0;
+    color:darkblue;
+  }
+  .row {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .image-product img{
+    width: 100%;
+  }
+
+  .image-product{
+    width: 50%;
+  }
+
+  .related-services{
+    display: flex;
+  }
+   .related-service img {
+    width: 25%;
+    position: relative;
+  }
